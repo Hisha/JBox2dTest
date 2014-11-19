@@ -42,7 +42,7 @@ public class Ball {
 	private LinearGradient gradient;
 
 	public Ball(float posX, float posY) {
-		this(posX, posY, Utils.BALL_SIZE, BodyType.DYNAMIC, Color.RED);
+		this(posX, posY, BaseConstants.BALL_SIZE, BodyType.DYNAMIC, Color.RED);
 		this.posX = posX;
 		this.posY = posY;
 	}
